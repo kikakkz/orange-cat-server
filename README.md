@@ -2,5 +2,5 @@
 * 橘猫阅读api接口
 
 # 接口
-/books
-/book
+* /books
+* /book
