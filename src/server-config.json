@@ -1,0 +1,25 @@
+{
+  "mysql": {
+    "host": "localhost",
+    "user": "root",
+    "password": "1qaz2wsx",
+    "db": "merged_books"
+  },
+  "content_spec": [
+    {
+      "host": "59xs",
+      "ptype": "start_end",
+      "start": "<div id=\"BookText\">",
+      "end": "</div>",
+      "charset": "gbk",
+      "chapter_prefix": ""
+    }, {
+      "host": "365haoshu",
+      "ptype": "segment",
+      "start": "<p class=\"p-content\" style=\"text-indent: 2em\">",
+      "end": "</p>",
+      "charset": "utf-8",
+      "chapter_prefix": "http://www.365haoshu.com/Book/Chapter/"
+    }
+  ]
+}
